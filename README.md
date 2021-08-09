@@ -35,3 +35,16 @@ Of video games with 20 or more votes and where the ratio of helpful_votes to tot
 A better way to determine bias is to compare a random sample of paid reviews to a random sample of unpaid reviews in a t-test. In this test we would compare the average number of 5-star reviews in the paid reviews to the average number of 5-star reviews in the unpaid reviews.
 
 Our Study design for this scenario would be as follows:
+
+Since our study design seeks to determine if there is any positivity bias in the vine program (meaning are paid reviews generally more favorable than unpaid reviews), we would look to study metrics such as average 5-star review per sample.
+
+1. Research Question
+   - Are there differences in average 5-star review count between paid program and the unpaid program?
+2. Forming Our Hypothesis
+   - Null Hyothesis: There is no difference between average 5-star review count between the paid and the unpaid program
+   - Alternative Hypothesis: There is difference between average 5-star review count between the paid and the unpaid program
+3. Statistical Test
+   - Since we are dealing with dichotomous data, (sample A vs Sample B), and our dependent variable (city or highway fuel efficiency) is continous, we would employ the Two-sample t-test to evaluate if there are differences in fuel effieciency between MecharCar and competition vehicles
+4. Data Requirement
+   - Sample A: sufficiently large MecharCar sample data set of fuel efficiency
+   - Sample B: sufficiently large competition sample data set of fuel efficiency
