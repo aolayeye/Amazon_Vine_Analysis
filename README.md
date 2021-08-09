@@ -20,3 +20,6 @@ Our review classification was based on the following:
 - 0.23% of the vine reviews were 5-star reviews, while 99.77% of the non-vine reviews were 5-star reviews
 
 ### Summary
+Of video games with 20 or more votes and where the ratio of helpful_votes to total votes was 50% or greater, only 0.23% of reviews in the vine program were 5 stars. We may conclude that there was no positivity bias toward favorable reviews from Vine members.
+A better way to determine bias is to compare a random sample of paid reviews to a random sample of unpaid reviews in a t-test.
+Our Study design for this scenario would be as follows:
