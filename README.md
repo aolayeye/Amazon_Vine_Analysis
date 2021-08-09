@@ -44,7 +44,7 @@ Since our study design seeks to determine if there is any positivity bias in the
    - Null Hyothesis: There is no difference between average 5-star review count between the paid and the unpaid program
    - Alternative Hypothesis: There is difference between average 5-star review count between the paid and the unpaid program
 3. Statistical Test
-   - Since we are dealing with dichotomous data, (sample A vs Sample B), and our dependent variable (city or highway fuel efficiency) is continous, we would employ the Two-sample t-test to evaluate if there are differences in fuel effieciency between MecharCar and competition vehicles
+   - Since we are dealing with dichotomous data, (sample A vs Sample B), and our dependent variable (average 5-star ratings(count)) is continous, we would employ the Two-sample t-test to evaluate if there are differences in number of 5-star ratings between paid reviews and unpaid reviews
 4. Data Requirement
-   - Sample A: sufficiently large MecharCar sample data set of fuel efficiency
-   - Sample B: sufficiently large competition sample data set of fuel efficiency
+   - Sample A: sufficiently large paid sample reviews dataset 
+   - Sample B: sufficiently large unpaid sample reviews dataset
