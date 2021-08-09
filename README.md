@@ -21,5 +21,6 @@ Our review classification was based on the following:
 
 ### Summary
 Of video games with 20 or more votes and where the ratio of helpful_votes to total votes was 50% or greater, only 0.23% of reviews in the vine program were 5 stars. We may conclude that there was no positivity bias toward favorable reviews from Vine members.
-A better way to determine bias is to compare a random sample of paid reviews to a random sample of unpaid reviews in a t-test.
+A better way to determine bias is to compare a random sample of paid reviews to a random sample of unpaid reviews in a t-test. in this test we would compare the average number of 5-star reviews in the paid reviews to the average number of 5-star reviews in the unpaid reviews.
+
 Our Study design for this scenario would be as follows:
