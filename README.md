@@ -15,12 +15,14 @@ Our review classification was based on the following:
 - ratio of helpful_votes to total_votes greater than 50%
 - percentage classification is based on 5-Star reviews
 #### Review Classification
-- There were 4291 vine reviews and 1781706 non-vine reviews
-- There are 48 5-star vine reviews and 20439 5-star non-vine reviews
-- 0.23% of the vine reviews were 5-star reviews, while 99.77% of the non-vine reviews were 5-star reviews
+- There are 94 vine reviews and 40471 non-vine reviews in the filtered dataset
+- There are 15711 5-star reviews in the filtered dataset
+- There are 48 5-star paid(vine) reviews and 15663 5-star unpaid(non-vine) reviews
+- 51.06% of the paid reviews were 5-star reviews, while 38.70% of the unpaid reviews were 5-star reviews
 
 ### Summary
-Of video games with 20 or more votes and where the ratio of helpful_votes to total votes was 50% or greater, only 0.23% of reviews in the vine program were 5 stars. We may conclude that there was no positivity bias toward favorable reviews from Vine members.
-A better way to determine bias is to compare a random sample of paid reviews to a random sample of unpaid reviews in a t-test. in this test we would compare the average number of 5-star reviews in the paid reviews to the average number of 5-star reviews in the unpaid reviews.
+Of video games with 20 or more votes and where the ratio of helpful_votes to total_votes was 50% or greater, 51.06% of reviews in the vine program were 5 stars. While 38.70% of unpaid reviews in the same filetered dataset were 5 stars. On a high-level we may conclude that there is some bias toward favorable reviews from Vine members in the video game dataset.
+
+A better way to determine bias is to compare a random sample of paid reviews to a random sample of unpaid reviews in a t-test. In this test we would compare the average number of 5-star reviews in the paid reviews to the average number of 5-star reviews in the unpaid reviews.
 
 Our Study design for this scenario would be as follows:
