@@ -20,8 +20,17 @@ Our review classification was based on the following:
 - There are 48 5-star paid(vine) reviews and 15663 5-star unpaid(non-vine) reviews
 - 51.06% of the paid reviews were 5-star reviews, while 38.70% of the unpaid reviews were 5-star reviews
 
+
+![Filtered_df_Paid_vs_Unpaid_Reviews](https://user-images.githubusercontent.com/67847583/128781535-22a0c3b4-784c-40b5-b730-930cf5a10dde.png)
+![Review_Classiffication](https://user-images.githubusercontent.com/67847583/128781544-a8ccd087-f244-451a-af2c-480a2e3fbe44.png)
+
+
+
+
 ### Summary
 Of video games with 20 or more votes and where the ratio of helpful_votes to total_votes was 50% or greater, 51.06% of reviews in the vine program were 5 stars. While 38.70% of unpaid reviews in the same filetered dataset were 5 stars. On a high-level we may conclude that there is some bias toward favorable reviews from Vine members in the video game dataset.
+###### Vine Review Analysis Summary
+![Vine_Review_Analysis_Summary](https://user-images.githubusercontent.com/67847583/128781612-0ff3f5fe-657f-4eca-bb2f-858115da0117.png)
 
 A better way to determine bias is to compare a random sample of paid reviews to a random sample of unpaid reviews in a t-test. In this test we would compare the average number of 5-star reviews in the paid reviews to the average number of 5-star reviews in the unpaid reviews.
 
