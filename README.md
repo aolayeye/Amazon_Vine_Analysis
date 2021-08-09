@@ -16,9 +16,7 @@ Our review classification was based on the following:
 - percentage classification is based on 5-Star reviews
 ##### Review Classification
 - There were 4291 vine reviews and 1781706 non-vine reviews
-##### 5-Star Review Classification
 - There are 48 5-star vine reviews and 20439 5-star non-vine reviews
-##### 5-Star Review Percentage Classification
-- 0.23% of the 5-star useful reviews were paid reviews, while 99.77% were unpaid reviews
+- 0.23% of the vine reviews were 5-star reviews, while 99.77% of the non-vine reviews were 5-star reviews
 
 ### Summary
