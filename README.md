@@ -14,7 +14,7 @@ Our review classification was based on the following:
 - video games with 20 or more votes
 - ratio of helpful_votes to total_votes greater than 50%
 - percentage classification is based on 5-Star reviews
-##### Review Classification
+#### Review Classification
 - There were 4291 vine reviews and 1781706 non-vine reviews
 - There are 48 5-star vine reviews and 20439 5-star non-vine reviews
 - 0.23% of the vine reviews were 5-star reviews, while 99.77% of the non-vine reviews were 5-star reviews
