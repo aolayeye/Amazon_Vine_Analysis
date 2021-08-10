@@ -51,4 +51,4 @@ Since our study design seeks to determine if there is any positivity bias in the
 
 ##### Two-Sample T-Test Summary
 ![Positivity_Bias_Test](https://user-images.githubusercontent.com/67847583/128812442-76a8d79a-21e5-4d2f-a673-dbba9d0284e2.png)
-In these results, the null hypothesis states that the difference in the mean helpful_votes between the paid and unpaid 5-star reviews is 0. Because the p-value is 0.3489, which is higher than the significance level of 0.05, the decision is to accept the null hypothesis and conclude that the helpful_votes of the paid and unpaid reviews are similar.
+In these results, the null hypothesis states that the difference in the mean helpful_votes between the paid and unpaid 5-star reviews is 0. Because the p-value is 0.3489, which is higher than the significance level of 0.05, the decision is to accept the null hypothesis and conclude that the mean helpful_votes of 5-star reviews of the paid and unpaid reviews are similar.
