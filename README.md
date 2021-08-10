@@ -50,5 +50,5 @@ Since our study design seeks to determine if there is any positivity bias in the
    - Sample B: sufficiently large unpaid sample reviews dataset
 
 ##### Two-Sample T-Test Summary
-![Vine_Review_Analysis_Summary](https://user-images.githubusercontent.com/67847583/128812378-ba8756a8-6426-4d8a-a8de-5df145ce4904.png)
+![Positivity_Bias_Test](https://user-images.githubusercontent.com/67847583/128812442-76a8d79a-21e5-4d2f-a673-dbba9d0284e2.png)
 In these results, the null hypothesis states that the difference in the mean helpful_votes between the paid and unpaid 5-star reviews is 0. Because the p-value is 0.3489, which is higher than the significance level of 0.05, the decision is to accept the null hypothesis and conclude that the helpful_votes of the paid and unpaid reviews are similar.
