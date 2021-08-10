@@ -41,10 +41,14 @@ Since our study design seeks to determine if there is any positivity bias in the
 1. Research Question
    - Are there differences in average 5-star review count between paid program and the unpaid program?
 2. Forming Our Hypothesis
-   - Null Hyothesis: There is no difference between average 5-star review count between the paid and the unpaid program
-   - Alternative Hypothesis: There is difference between average 5-star review count between the paid and the unpaid program
+   - Null Hyothesis: The true difference in helpful_votes means between between the paid and the unpaid program is eqaul to 0
+   - Alternative Hypothesis: The true difference in helpful_votes means between between the paid and the unpaid program is not eqaul to 0
 3. Statistical Test
-   - Since we are dealing with dichotomous data, (sample A vs Sample B), and our dependent variable (average 5-star ratings(count)) is continous, we would employ the Two-sample t-test to evaluate if there are differences in number of 5-star ratings between paid reviews and unpaid reviews
+   - Since we are dealing with dichotomous data, (sample A vs Sample B), and our dependent variable (average 5-star ratings helpful_votes count) is continous, we would employ the Two-sample t-test to evaluate if there are differences in number of 5-star ratings helpful_votes count between paid reviews and unpaid reviews
 4. Data Requirement
    - Sample A: sufficiently large paid sample reviews dataset 
    - Sample B: sufficiently large unpaid sample reviews dataset
+
+##### Two-Sample T-Test Summary
+![Vine_Review_Analysis_Summary](https://user-images.githubusercontent.com/67847583/128812378-ba8756a8-6426-4d8a-a8de-5df145ce4904.png)
+In these results, the null hypothesis states that the difference in the mean helpful_votes between the paid and unpaid 5-star reviews is 0. Because the p-value is 0.3489, which is higher than the significance level of 0.05, the decision is to accept the null hypothesis and conclude that the helpful_votes of the paid and unpaid reviews are similar.
